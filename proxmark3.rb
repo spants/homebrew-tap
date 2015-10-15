@@ -4,6 +4,7 @@ class Proxmark3 < Formula
   url "https://github.com/Proxmark/proxmark3/archive/master.tar.gz"
   sha256 "c9cd47cb2d7ff48105cdf744237409eeb6993f3a3a2b34ed94489bdaf1a92a5a"
   head "https://github.com/Proxmark/proxmark3.git"
+  version '2.2.0'
 
   depends_on "automake" => :build
   depends_on "readline"
