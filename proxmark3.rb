@@ -2,7 +2,7 @@ class Proxmark3 < Formula
   desc "Proxmark3 client, flasher, HID flasher and firmware bundle"
   homepage "http://www.proxmark.org"
   url "https://github.com/Proxmark/proxmark3/archive/master.tar.gz"
-  sha256 "e8f41fd36118d0569a02c1d2c50388238b11decd7ee526ba882c2b50b3f90069"
+  sha256 : no_check
   head "https://github.com/Proxmark/proxmark3.git"
 
   depends_on "automake" => :build
